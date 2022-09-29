@@ -28,7 +28,7 @@ def float_to_int(float_number):
 def sum_digit (number):
     int_number = abs(int(number))
     digit_sum = 0
-    while int_number > 1:
+    while int_number >= 1:
         digit_sum += int_number % 10
         int_number //= 10
     return digit_sum
